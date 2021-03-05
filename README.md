@@ -7,6 +7,8 @@ This is an application that is designed to make every day task easier for the pe
 ![Alt Text](https://github.com/Syndikin/RememberMe/blob/main/WireFrame1.JPG)
 ![Alt Text](https://github.com/Syndikin/RememberMe/blob/main/WireFrame2.JPG)
 ![Alt Text](https://github.com/Syndikin/RememberMe/blob/main/WireFrame3.JPG)
+![Alt Text](https://github.com/Syndikin/RememberMe/blob/main/WireFrame4.JPG)
+![Alt Text](https://github.com/Syndikin/RememberMe/blob/main/WireFrame5.JPG)
 
 
 
