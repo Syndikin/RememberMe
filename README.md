@@ -18,8 +18,5 @@ I need an application that will help me complete these items.  I would like to b
 I am also not tech savvy and need a simple interface I can navigate.
 
 ### Use-Cases:
-1.	User will be given fundamentals to learning Japanese such as the Japanese alphabet (Hiragana and Katakana), When user practices the two alphabets then they will be successful at pronouncing and reading some of the basic words in Japanese written in katakana and Hiragana.
-2.	User will be given visual content of the stroke orders of Japanese alphabet’s characters. When the user goes over the stroke orders of the characters then they will be able to successfully basic write words in Japanese.
-3.	User will be awarded points when they complete each learning task and will be able to spend the points however they wish to in the rewards shop. Then they will stay motivated to keep learning and stay on task.
-4.	User will be given the opportunity to test their speaking skills to others when they learn the appropriate learning objectives then they will be confident in speaking the Language.
+
 
