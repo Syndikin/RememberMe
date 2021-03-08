@@ -18,5 +18,9 @@ I need an application that will help me complete these items.  I would like to b
 I am also not tech savvy and need a simple interface I can navigate.
 
 ### Use-Cases:
+The user will be able to create new To-do list are desired. The user will be able to link each item to a location. 
+The user will have the flexibility to set radius of alerts and an expiration date on items in their to do list. 
+The user will also be able to view current active To-do list and edit To-do list as desired.
 
+## UML: 
 
