@@ -22,7 +22,8 @@ The user will be able to create new To-do list are desired. The user will be abl
 The user will have the flexibility to set radius of alerts and an expiration date on items in their to do list. 
 The user will also be able to view current active To-do list and edit To-do list as desired.
 
-## UML: 
+## UML Sample: 
+![Alt Text](https://github.com/Syndikin/RememberMe/blob/main/UMLSample.jpg)
 
 ## Requirements:
 
