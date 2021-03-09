@@ -34,16 +34,16 @@ The user will also be able to view current active To-do list and edit To-do list
 |1.3| They system shall accept desired location of to-do list item.| analysis| N/A|
 |1.3.1| The system shall be able to correctly identify locations inputed by user.| test |103|
 |1.3.2| The system shall request a desired alert radius based on current location.| inspection| |
-|2| The system shall properly retrieve user's location within 0.1 miles.| inspection| |
-|2.1| The system shall have capability to use the user's location provided by the user's browser.| | |
-|2.1.1| The system shall request permission to use the user's location if not already given.| | |
-|2.1.2| The system shall be able to use GPS coordinates as an alternate method of location tracking.| | | 
-|3| The system shall be able to calculate the approximate distance between the user's current location and the location of the to-do list item.| | |
-|3.1| The system shall provide appropiate alert to user's homescreen when in proximity of item.|
-|3.1.1  The system shall allow user to check off to-do list item and deactive it.| | |
-|4| The system shall allow user to input an expiration date on to-do list item.| | |
-|4.1| The system shall deactive to-do list item upon expiration date.| | |
-|4.1.1| The system shall provide an alert of deactived to-do list item.| | |
+|2| The system shall properly retrieve user's location within 0.1 miles.| inspection|test |200|
+|2.1| The system shall have capability to use the user's location provided by the user's browser.|test|200|
+|2.1.1| The system shall request permission to use the user's location if not already given.|inspection|N\A|
+|2.1.2| The system shall be able to use GPS coordinates as an alternate method of location tracking.|test | | 
+|3| The system shall be able to calculate the approximate distance between the user's current location and the location of the to-do list item.|analysis | |
+|3.1| The system shall provide appropiate alert to user's homescreen when in proximity of item.| inspection| |
+|3.1.1| The system shall allow user to check off to-do list item and deactive it.|inspection| |
+|4| The system shall allow user to input an expiration date on to-do list item.|inspection| |
+|4.1| The system shall deactive to-do list item upon expiration date.|test| |
+|4.1.1| The system shall provide an alert of deactived to-do list item.|test| |
  
 ## Testing
 
