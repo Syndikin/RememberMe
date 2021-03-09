@@ -44,3 +44,13 @@ The user will also be able to view current active To-do list and edit To-do list
  * 4.1 The system shall deactive to-do list item upon expiration date.
  * * 4.1.1 The system shall provide an alert of deactived to-do list item.
  
+## Testing
+
+|testID|Req|Test proc|current|time|
+|---|---|---|---|---|
+|100|1|To-do list created accurately according to template|not tested|TBD|
+|101|1.1|To-do list are recorded and saced properly for user reference|not tested|TBD |
+|102|1.2|All editing functions on To-do list interface are active and working properly|not tested|TBD|
+|103|1.3|Nearby item locations properly generated using google maps|not tested|TBD|  
+|200|2| User location is accurate and within a 0.1 mile radius |not tested| TBD|
+
