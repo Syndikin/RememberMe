@@ -37,7 +37,7 @@ The user will also be able to view current active To-do list and edit To-do list
 |2| The system shall properly retrieve user's location within 0.1 miles.| inspection|test |200|
 |2.1| The system shall have capability to use the user's location provided by the user's browser.|test|200|
 |2.1.1| The system shall request permission to use the user's location if not already given.|inspection|N\A|
-|2.1.2| The system shall be able to use GPS coordinates as an alternate method of location tracking.|test | | 
+|2.1.2| The system shall be able to use GPS coordinates as an alternate method of location tracking.|test |201 | 
 |3| The system shall be able to calculate the approximate distance between the user's current location and the location of the to-do list item.|analysis | |
 |3.1| The system shall provide appropiate alert to user's homescreen when in proximity of item.| inspection| |
 |3.1.1| The system shall allow user to check off to-do list item and deactive it.|inspection| |
@@ -47,11 +47,17 @@ The user will also be able to view current active To-do list and edit To-do list
  
 ## Testing
 
-|testID|ReqID|Test requirement|status|Date completed|
+|testID|ReqID|Test requirement|status|Date completion|
 |---|---|---|---|---|
 |100|1|To-do list created accurately according to template|not tested|TBD|
 |101|1.1|To-do list are recorded and saved properly for user reference|not tested|TBD |
 |102|1.2|All editing functions on To-do list interface are active and working properly|not tested|TBD|
 |103|1.3|Nearby item locations properly generated using google maps|not tested|TBD|  
-|200|2| User location is accurate and within a 0.1 mile radius |not tested| TBD|
+|200|2| user location accurate and within a 0.1 mile radius|not tested| TBD|
+|201| 2.1.2| System can use GPS location as alternate location tracking method| not tested| TBD|
+|300| | | | |
+|400| To-do list deactives properly upon user completion| not tested| TBD|
+|401| To-do list deactives upon expiration date| not tested| TBD|
+|402| To-do list alerts user of deactivation| not tested| TBD|
+
 
