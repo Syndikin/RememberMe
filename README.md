@@ -17,7 +17,7 @@ As a person who is always on the go and with an endless amount of errands to run
 I need an application that will help me complete these items.  I would like to be alerted within a proximity of my desire and I would like alerts to be sent to my phones homescreen. I also would like to choose the location of  where I would like to complete my item and the choice to put an expiration date on the item.
 I am also not tech savvy and need a simple interface I can navigate.
 
-### Use-Cases:
+## Use-Cases:
 The user will be able to create new To-do list are desired. The user will be able to link each item to a location. 
 The user will have the flexibility to set radius of alerts and an expiration date on items in their to do list. 
 The user will also be able to view current active To-do list and edit To-do list as desired.
@@ -26,20 +26,20 @@ The user will also be able to view current active To-do list and edit To-do list
 
 ## Requirements:
 
-* 1. The system shall allow user to create new to-do list
+ 1. The system shall allow user to create new to-do list
            * 1.1 The system shall allow user to review active to-do list.
            * 1.2 The system shall allow user to input and delete new items on to the to-do list.
            * 1.3 They system shall accept desired location of to-do list item.
                   * 1.3.1 The system shall be able to correctly identify locations inputed by user. 
                   * 1.3.2 The system shall request a desired alert radius based on current location.
-* 2. The system shall properly retrieve user's location within 0.1 miles.
+ 2. The system shall properly retrieve user's location within 0.1 miles.
             * 2.1 The system shall have capability to use the user's location provided by the user's browser.
                     * 2.1.1 The system shall request permission to use the user's location if not already given.
                     * 2.1.2 The system shall be able to use GPS coordinates as an alternate method of location tracking. 
-* 3. The system shall be able to calculate the approximate distance between the user's current location and the location of the to-do list item.
+ 3. The system shall be able to calculate the approximate distance between the user's current location and the location of the to-do list item.
            * 3.1 The system shall provide appropiate alert to user's homescreen when in proximity of item.
                    * 3.1.1  The system shall allow user to check off to-do list item and deactive it.
-* 4.The system shall allow user to input an expiration date on to-do list item.
+ 4.The system shall allow user to input an expiration date on to-do list item.
            * 4.1 The system shall deactive to-do list item upon expiration date.
                    * 4.1.1 The system shall provide an alert of deactived to-do list item.
  
