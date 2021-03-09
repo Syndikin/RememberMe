@@ -46,7 +46,7 @@ The user will also be able to view current active To-do list and edit To-do list
  
 ## Testing
 
-|testID|Req|Test proc|current|time|
+|testID|ReqID|Test requirement|status|Date completed|
 |---|---|---|---|---|
 |100|1|To-do list created accurately according to template|not tested|TBD|
 |101|1.1|To-do list are recorded and saced properly for user reference|not tested|TBD |
