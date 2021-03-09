@@ -27,7 +27,7 @@ The user will also be able to view current active To-do list and edit To-do list
 ## Requirements:
 
  1. The system shall allow user to create new to-do list
-           * 1.1 The system shall allow user to review active to-do list.
+ * 1.1 The system shall allow user to review active to-do list.
            * 1.2 The system shall allow user to input and delete new items on to the to-do list.
            * 1.3 They system shall accept desired location of to-do list item.
                   * 1.3.1 The system shall be able to correctly identify locations inputed by user. 
