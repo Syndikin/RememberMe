@@ -56,8 +56,8 @@ The user will also be able to view current active To-do list and edit To-do list
 |200|2| user location accurate and within a 0.1 mile radius|not tested| TBD|
 |201| 2.1.2| System can use GPS location as alternate location tracking method| not tested| TBD|
 |300| | | | |
-|400| To-do list deactives properly upon user completion| not tested| TBD|
-|401| To-do list deactives upon expiration date| not tested| TBD|
-|402| To-do list alerts user of deactivation| not tested| TBD|
+|400| |To-do list deactives properly upon user completion| not tested| TBD|
+|401|4.1|To-do list deactives upon expiration date| not tested| TBD|
+|402| 4.1.1|To-do list alerts user of deactivation| not tested| TBD|
 
 
