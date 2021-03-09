@@ -28,29 +28,29 @@ The user will also be able to view current active To-do list and edit To-do list
 ## Requirements:
 |ReqId| Requirement Details| Test Method| testID|
 |---|---|---|---|
-1. The system shall allow user to create new to-do list
- * 1.1 The system shall allow user to review active to-do list.
- * 1.2 The system shall allow user to input and delete new items on to the to-do list.
- * 1.3 They system shall accept desired location of to-do list item.
- * * 1.3.1 The system shall be able to correctly identify locations inputed by user. 
- * * 1.3.2 The system shall request a desired alert radius based on current location.
-2. The system shall properly retrieve user's location within 0.1 miles.
- * 2.1 The system shall have capability to use the user's location provided by the user's browser.
- * * 2.1.1 The system shall request permission to use the user's location if not already given.
- * * 2.1.2 The system shall be able to use GPS coordinates as an alternate method of location tracking. 
-3. The system shall be able to calculate the approximate distance between the user's current location and the location of the to-do list item.
- * 3.1 The system shall provide appropiate alert to user's homescreen when in proximity of item.
- * * 3.1.1  The system shall allow user to check off to-do list item and deactive it.
-4.The system shall allow user to input an expiration date on to-do list item.
- * 4.1 The system shall deactive to-do list item upon expiration date.
- * * 4.1.1 The system shall provide an alert of deactived to-do list item.
+|1| The system shall allow user to create new to-do list.|test| 100|
+|1.1| The system shall allow user to review active to-do list.|test|101|
+|1.2| The system shall allow user to input and delete new items on to the to-do list.|test|102|
+|1.3| They system shall accept desired location of to-do list item.| analysis| N/A|
+|1.3.1| The system shall be able to correctly identify locations inputed by user.| test |103|
+|1.3.2| The system shall request a desired alert radius based on current location.| inspection| |
+|2| The system shall properly retrieve user's location within 0.1 miles.| inspection| |
+|2.1| The system shall have capability to use the user's location provided by the user's browser.| | |
+|2.1.1| The system shall request permission to use the user's location if not already given.| | |
+|2.1.2| The system shall be able to use GPS coordinates as an alternate method of location tracking.| | | 
+|3| The system shall be able to calculate the approximate distance between the user's current location and the location of the to-do list item.| | |
+|3.1| The system shall provide appropiate alert to user's homescreen when in proximity of item.|
+|3.1.1  The system shall allow user to check off to-do list item and deactive it.| | |
+|4| The system shall allow user to input an expiration date on to-do list item.| | |
+|4.1| The system shall deactive to-do list item upon expiration date.| | |
+|4.1.1| The system shall provide an alert of deactived to-do list item.| | |
  
 ## Testing
 
 |testID|ReqID|Test requirement|status|Date completed|
 |---|---|---|---|---|
 |100|1|To-do list created accurately according to template|not tested|TBD|
-|101|1.1|To-do list are recorded and saced properly for user reference|not tested|TBD |
+|101|1.1|To-do list are recorded and saved properly for user reference|not tested|TBD |
 |102|1.2|All editing functions on To-do list interface are active and working properly|not tested|TBD|
 |103|1.3|Nearby item locations properly generated using google maps|not tested|TBD|  
 |200|2| User location is accurate and within a 0.1 mile radius |not tested| TBD|
